@@ -123,6 +123,11 @@ function actualizaCarritoVista() {
         element.textContent = "Carrito: " + elementos;
     });
 
+    var elementosCarritoUL = document.querySelectorAll(".botonCarritoUL");
+    elementosCarritoUL.forEach(element => {
+        element.textContent = "Carrito: " + elementos;
+    });
+
     return elementos;
 
 }
